@@ -1,0 +1,105 @@
+#Background {
+    -fx-background-color: #1e1e1e;
+}
+
+#titulo {
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 18px;
+    -fx-font-family: comic-saens;
+    -fx-font-weight: bold;
+}
+
+#sub_titulo {
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 15px;
+    -fx-font-family: comic-saens;
+}
+
+
+.textos {
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 12px;
+    -fx-font-family: comic-saens;
+}
+
+.fondo_textos {
+    -fx-background-color: #3c3c3c;
+    -fx-text-fill: #ffffff;
+}
+
+.botones {
+    -fx-font-size: 12.5px;
+    -fx-text-fill: #ffffff;
+    -fx-border-radius: 10px;
+    -fx-background-color: #528bff;
+    cursor: pointer;
+}
+
+.boton_regresar {
+    -fx-font-size: 12.5px;
+    -fx-text-fill: #ffffff;
+    -fx-border-radius: 10px;
+    -fx-background-color: #3c3c3c;
+    -fx-cursor: pointer;
+}
+
+
+.boton_cancelar {
+    -fx-font-size: 12.5px;
+    -fx-text-fill: #ffffff;
+    -fx-border-radius: 10px;
+    -fx-background-color: #c02723;
+    -fx-cursor: pointer;
+}
+
+.botones_m:hover {
+    /*-fx-background-color: #61afef; /* Color de fondo al pasar el mouse */
+    -fx-opacity: 0.90;
+    -fx-cursor: pointer;
+}
+
+.label_p {
+    -fx-text-alignment: center;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 18px;
+    -fx-font-family: comic-saens;
+}
+
+/* Estilo para todas las alertas */
+.alert {
+    -fx-background-color: #1e1e1e; /* Color de fondo */
+    /*-fx-border-color: #007bff; /* Color del borde */
+    /*-fx-border-width: 2px; /* Ancho del borde */
+}
+
+/* Estilo para el título de la alerta */
+.alert .header {
+    -fx-background-color: #1e1e1e; /* Color de fondo */
+    -fx-font-family: comic-saens;
+    -fx-font-size: 15px; /* Tamaño de fuente del encabezado */
+    -fx-text-fill: #ffffff; /* Color del texto del encabezado */
+}
+
+/* Estilo para el contenido de la alerta */
+.alert .content {
+    -fx-background-color: #1e1e1e;
+    -fx-font-size: 13px; /* Tamaño de fuente del contenido */
+    -fx-text-fill: #ffffff; /* Color del texto del contenido */
+    -fx-font-family: comic-saens;
+}
+
+/* Estilo para los botones de la alerta */
+.button {
+    -fx-background-color: #528bff; /* Color de fondo del botón */
+    -fx-text-fill: #ffffff; /* Color del texto del botón */
+    -fx-font-size: 12.5px;
+    -fx-border-radius: 10px;
+    -fx-cursor: pointer;
+}
+
+.button:hover {
+    -fx-opacity: 0.90;
+    -fx-cursor: pointer;
+}
+
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="Background" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="500.0" stylesheets="@Estilos.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.actividad1.poo2.actividad3_poo2.PrincipalController">
+   <children>
+      <Label fx:id="lblBienvenida" alignment="CENTER" contentDisplay="CENTER" layoutX="228.0" layoutY="137.0" styleClass="label_p" text="Texto" AnchorPane.leftAnchor="0.0"
+             AnchorPane.rightAnchor="0.0"/>
+   </children>
+</AnchorPane>
